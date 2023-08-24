@@ -1,7 +1,6 @@
-import PyPDF2
+import PyPDF4
+
 import os
-
-
 
 def extraer_correo(archivo_pdf):
     """
@@ -14,7 +13,7 @@ s
       str: El correo electrónico extraído.
     """
 
-    pdf_reader = PyPDF2.PdfFileReader(archivo_pdf)
+    pdf_reader = PyPDF4.PdfFileReader(archivo_pdf)
     texto_pdf = pdf_reader.getPage(0).extractText()
 
     correo = ""
@@ -36,7 +35,7 @@ def extraer_celular(archivo_pdf):
       str: El número de celular extraído.
     """
 
-    pdf_reader = PyPDF2.PdfFileReader(archivo_pdf)
+    pdf_reader = PyPDF4.PdfFileReader(archivo_pdf)
     texto_pdf = pdf_reader.getPage(0).extractText()
 
     celular = ""

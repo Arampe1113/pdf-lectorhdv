@@ -1,0 +1,8 @@
+Archivo que lee PDF y ayuda a extraer correo y celular. 
+Este proyecto se hace en pro de leer HDV por tematicas e invitarlos a participar en vacantes luego de su envio. 
+Esto en pro de un manejo masivo de HDV y de candidatos por vacantes
+
+En este caso se instalo Anaconda y microconda para su funcionamiento. 
+
+Debes instalar 
+PyPDF4   que es la libreria usada en este caso. 
